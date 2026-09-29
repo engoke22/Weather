@@ -4,7 +4,8 @@ compatibility_date = "2025-09-01"
 
 [[kv_namespaces]]
 binding = "SUBSCRIBERS"
-id = "YOUR_EXISTING_KV_NAMESPACE_ID"
+id = "83908c5835b44d5ca8a00bbee5f85417"
 
+# Cron uses UTC. Nairobi (UTC+3): 07:00, 13:00, 19:00
 [triggers]
-crons = ["0 * * * *"]
+crons = ["0 4 * * *", "0 10 * * *", "0 16 * * *"]

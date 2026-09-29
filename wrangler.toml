@@ -1,10 +1,9 @@
-name = "weather-desk-bot"
-main = "src/index.js"
+name = "weather"
+main = "index.js"
 compatibility_date = "2025-09-01"
 
 [[kv_namespaces]]
 binding = "SUBSCRIBERS"
-id = "PASTE_YOUR_KV_NAMESPACE_ID_HERE"
 
 # Cron uses UTC. Nairobi (UTC+3): 07:00, 13:00, 19:00
 [triggers]

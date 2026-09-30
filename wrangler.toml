@@ -1,11 +1,10 @@
-name = "weather"
+name = "weather-desk"
 main = "src/index.js"
-compatibility_date = "2025-09-01"
+compatibility_date = "2026-09-30"
 
 [[kv_namespaces]]
 binding = "SUBSCRIBERS"
 id = "83908c5835b44d5ca8a00bbee5f85417"
 
-# Cron uses UTC. Nairobi (UTC+3): 07:00, 13:00, 19:00
 [triggers]
-crons = ["0 4 * * *", "0 10 * * *", "0 16 * * *"]
+crons = ["0 * * * *"]
